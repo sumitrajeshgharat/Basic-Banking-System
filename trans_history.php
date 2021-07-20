@@ -93,9 +93,9 @@ margin-bottom: 270px;
         </thead>
         <tbody>
             <?php
-            $servername = "localhost";
-            $username = "id17281138_shahapur";
-            $conn = new mysqli($servername, $username,"",'id17281138_bank');
+             $servername = "remotemysql.com";
+            $username = "kqFQcWoVGO";
+            $conn = new mysqli($servername, $username,"FsazyQ0nwN",'kqFQcWoVGO');
             $sq="select * from transactions";
             $stm=$conn->prepare($sq);
             $stm->execute();
