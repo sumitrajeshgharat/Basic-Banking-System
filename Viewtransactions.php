@@ -32,9 +32,9 @@
 <body>
 <?php
     $servername = "localhost";
-    $username = "root";
+    $username = "id17281138_shahapur";
 
-    $conn = new mysqli($servername, $username,"",'id17227318_bank');
+    $conn = new mysqli($servername, $username,"",'id17281138_bank');
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
       }
