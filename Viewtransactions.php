@@ -31,10 +31,9 @@
 </head>
 <body>
 <?php
-    $servername = "localhost";
-    $username = "id17281138_shahapur";
-
-    $conn = new mysqli($servername, $username,"",'id17281138_bank');
+   $servername = "remotemysql.com";
+            $username = "kqFQcWoVGO";
+            $conn = new mysqli($servername, $username,"FsazyQ0nwN",'kqFQcWoVGO');
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
       }
